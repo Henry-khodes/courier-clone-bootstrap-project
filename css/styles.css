@@ -1183,6 +1183,7 @@ body {
   height: 502px;
   z-index: 53;
   position: relative;
+  overflow: hidden;
 }
 
 .v-title {
@@ -1714,7 +1715,15 @@ body {
     font-size: 50px;
   }
   .gc {
-    font-size: 50px;
+    font-size: 20px;
+  }
+  .we {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .appa {
+    font-size: medium;
+    line-height: 44px;
   }
 }
 
@@ -1736,6 +1745,7 @@ body {
     padding: 12px;
   }
 }
+
 
 @keyframes fadeIn {
   0% {
